@@ -1,3 +1,4 @@
+import { SpeedInsights } from "@vercel/speed-insights/react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import About from "./Component/About/About";
@@ -26,6 +27,7 @@ function App() {
       <Price />
       <Comments />
       <Footer />
+      <SpeedInsights />
     </div>
   );
 }
