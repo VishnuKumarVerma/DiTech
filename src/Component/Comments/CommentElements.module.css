@@ -1,0 +1,16 @@
+.CommentElementsClass {
+  border: 1px solid black;
+  padding: 50px;
+}
+
+.CommentElementsClass .card {
+  border: 1px solid #164031; /* Adjust border properties as needed */
+  border-radius: 8px; /* Optional: Add border radius for rounded corners */
+  padding: 50px; /* Optional: Add padding inside the card */
+}
+
+@media (max-width: 376px) {
+  .CommentElementsClass {
+    padding: 10px;
+  }
+}

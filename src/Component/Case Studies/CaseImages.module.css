@@ -1,0 +1,15 @@
+.imageContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.imageContainer img:hover {
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+@media (max-width: 1441px) {
+  .imageContainer {
+    flex-direction: column;
+  }
+}

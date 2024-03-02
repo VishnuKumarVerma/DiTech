@@ -1,0 +1,28 @@
+.profileClass {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 40px 0 0;
+}
+
+.profileClass img {
+  border-radius: 50%;
+  width: 70px;
+  margin-right: 30px;
+}
+
+.profileClass div h3 {
+  color: rgb(111, 186, 186);
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.profileClass div h4 {
+  color: #fff;
+}
+
+@media (max-width: 376px) {
+  .profileClass div h3 {
+    font-size: 12px;
+  }
+}

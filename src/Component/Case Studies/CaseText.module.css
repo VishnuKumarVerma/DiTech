@@ -1,0 +1,24 @@
+.mainCaseTextClass h3 {
+  font-size: 20px;
+  color: cyan;
+  width: 100vw;
+}
+
+.mainCaseTextClass h1 {
+  font-size: 60px;
+  width: 80%;
+  margin: 10px auto;
+  font-weight: 900;
+  color: #fff;
+}
+
+@media (max-width: 376px) {
+
+  .mainCaseTextClass h3 {
+    font-size: 14px;
+  }
+
+  .mainCaseTextClass h1 {
+    font-size: 30px;
+  }
+}

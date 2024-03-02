@@ -1,0 +1,50 @@
+.serviceItemClass {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  /* margin: 20px; */
+  padding: 10px;
+  width: 100vw;
+  font-weight: 900;
+}
+
+.serviceItemClass .leftItemsClass  {
+  flex: 50%;
+  margin: 10px 30px;
+  width: 100%;
+}
+
+.serviceItemClass .rightItemsClass {
+  flex: 40%;
+  margin: 0px 30px;
+}
+
+@media (max-width: 1025px) {
+  
+}
+
+@media (max-width: 769px) {
+  .serviceItemClass {
+    flex-direction: column;
+  }
+
+  .serviceItemClass .leftItemsClass {
+    margin: 0;
+    flex: 100%;
+  }
+
+  .serviceItemClass .rightItemsClass {
+    float: 100%;
+  }
+}
+
+@media (max-width: 426px) {
+  
+}
+
+@media (max-width: 376px) {
+  
+}
+
+@media (max-width: 321px) {
+}

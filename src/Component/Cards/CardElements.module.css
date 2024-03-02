@@ -1,0 +1,36 @@
+.cardClass {
+  max-width: 300px;
+  height: auto;
+  border: 1px solid #fff;
+  margin: 20px 0;
+  padding: 20px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.cardClass img {
+  width: 100px;
+  margin: 10px 0 80px;
+}
+
+.cardClass h2 {
+  font-size: 30px;
+  margin: 10px 0;
+}
+
+.cardClass p {
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.cardClass section {
+  font-size: 40px;
+  margin: 25px 0 10px;
+}
+
+.cardClass section:hover {
+  scale: 0.95;
+  color: cyan;
+  transition:scale 0.5s ease, color 0.01s ease;
+  cursor: pointer;
+}

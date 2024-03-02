@@ -1,0 +1,17 @@
+.logoClass {
+  width: 300px;
+}
+
+@media (max-width: 769px) {
+  .logoClass {
+    width: 200px;
+  }
+}
+
+@media (max-width: 426px) {
+  .logoClass {
+    width: 150px;
+    display: flex;
+    margin: 5px auto;
+  }
+}

@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  transition: 0.2s ease-in-out;
+  text-decoration: none;
+}
+
+::selection {
+  background-color: rgb(18, 111, 111);
+  color: #fff;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background: rgba(0, 0, 0, 0.95) url('./assets/overlayBack-One.png');
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.mainContainer {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  width: 100%;
+  height: 100vh;
+}

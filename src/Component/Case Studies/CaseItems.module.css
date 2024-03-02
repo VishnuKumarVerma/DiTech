@@ -1,0 +1,18 @@
+.mainCaseItemsClass {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.mainCaseItemsClass img {
+  margin: 150px 20px;
+}
+
+@media (max-width: 1441px) {
+  .mainCaseItemsClass img {
+    margin: 10px 0;
+  }
+}

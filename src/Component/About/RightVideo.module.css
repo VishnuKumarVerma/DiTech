@@ -1,0 +1,10 @@
+.rightVideoClass {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.rightVideoClass video {
+  width: 90%;
+  height: auto;
+}

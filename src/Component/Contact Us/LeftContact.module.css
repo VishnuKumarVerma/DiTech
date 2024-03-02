@@ -1,0 +1,45 @@
+.LeftContactClass {
+  padding: 0 40px;
+  color: #fff;
+}
+
+.LeftContactClass h1 {
+  font-weight: 800;
+  font-size: 50px;
+  padding: 10px 0;
+}
+
+.LeftContactClass .leftHead p {
+  margin: 40px 0;
+  padding: 0 10px;
+}
+
+.LeftContactClass h4 {
+  display: flex;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  color: cyan;
+}
+
+.LeftContactClass h4 p {
+  padding: 0 10px;
+  font-size: 15px;
+  color: #fff;
+}
+
+@media (max-width: 426px) {
+
+  .LeftContactClass {
+    padding: 10px;
+  }
+
+  .LeftContactClass h1 {
+    font-size: 30px;
+  }
+
+  .LeftContactClass h4 p {
+    font-size: 10px;
+  }
+}

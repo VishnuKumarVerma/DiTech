@@ -1,0 +1,52 @@
+.rightItemsClass {
+  margin: 0 40px;
+}
+
+.rightItemsClass img {
+  width: 200px;
+}
+
+.rightItemsClass p {
+  margin: 60px 0 10px;
+  font-size: 18px;
+}
+
+.rightItemsClass h2 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: cyan;
+  font-weight: 700;
+}
+
+.rightItemsClass .chooseNextIcon {
+  font-size: 50px;
+  cursor: pointer;
+}
+
+.rightItemsClass .chooseNextIcon:hover {
+  scale: 0.95;
+  color: cyan;
+  transition: scale 0.5s ease, color 0.1s ease;
+}
+
+@media (max-width: 1025px) {
+  .rightItemsClass img {
+    width: 250px;
+  }
+}
+
+@media (max-width: 769px) {}
+
+@media (max-width: 426px) {
+  .rightItemsClass {
+    margin: 20px 0;
+  }
+
+  .rightItemsClass .chooseNextIcon {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 376px) {}
+
+@media (max-width: 321px) {}

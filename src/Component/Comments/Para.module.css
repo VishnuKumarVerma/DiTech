@@ -1,0 +1,10 @@
+.paraClass {
+  color: #fff;
+  font-weight: 600;
+}
+
+@media (max-width: 376px) {
+  .paraClass p {
+    font-size: 10px;
+  } 
+}

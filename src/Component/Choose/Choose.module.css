@@ -1,0 +1,35 @@
+.mainChooseSection {
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  padding: 140px 100px;
+}
+
+.mainLeftClass,
+.mainRightClass {
+  flex: 50%;
+}
+
+@media (max-width: 1025px) {
+  .mainChooseSection {
+    flex-direction: column;
+    padding: 140px 50px;
+  }
+
+  .mainLeftClass,
+  .mainRightClass {
+    flex: 100%;
+  }
+}
+
+@media (max-width: 769px) {}
+
+@media (max-width: 426px) {}
+
+@media (max-width: 376px) {}
+
+@media (max-width: 321px) {}

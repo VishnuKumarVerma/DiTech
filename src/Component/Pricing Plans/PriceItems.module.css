@@ -1,0 +1,29 @@
+.mainPriceItemsClass h3 {
+  font-size: 20px;
+  color: cyan;
+}
+
+.mainPriceItemsClass .priceHeader h1 {
+  color: #fff;
+  font-size: 70px;
+}
+
+.mainPriceItemsClass .cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 0px;
+  align-items: center;
+}
+
+@media (max-width: 426px) {
+
+  .mainPriceItemsClass .priceHeader h3 {
+    font-size: 13px;
+  }
+
+  .mainPriceItemsClass .priceHeader h1 {
+    font-size: 40px;
+  }
+}

@@ -1,0 +1,39 @@
+.rightClass {
+  padding: 0px 0px;
+  color: #fff;
+}
+
+.rightClass h1 {
+  font-size: 40px;
+  /* margin: 20px 0; */
+}
+
+.rightClass p {
+  margin-top: 40px;
+  font-weight: 300;
+}
+
+
+@media (max-width: 1025px) {
+  
+}
+
+@media (max-width: 769px) {
+  .rightClass h1 {
+    margin: 40px 0;
+  }
+  .rightClass p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 426px) {
+  
+}
+
+@media (max-width: 376px) {
+  
+}
+
+@media (max-width: 321px) {
+}

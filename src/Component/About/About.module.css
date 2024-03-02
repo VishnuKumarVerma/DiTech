@@ -1,0 +1,17 @@
+.aboutClass {
+  width: 100vw;
+  height: auto;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(0,0, 0, 0.8);
+}
+
+
+@media (max-width: 769px) {
+  .aboutClass {
+    flex-direction: column;
+    padding: 10px;
+    flex: 100%;
+  }
+}

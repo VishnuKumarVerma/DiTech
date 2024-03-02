@@ -1,0 +1,7 @@
+.ratingsClass {
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  color: cyan;
+  margin: 5px 0 40px;
+}

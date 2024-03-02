@@ -1,0 +1,45 @@
+.leftClass {
+  display: flex;
+  justify-content: center;
+}
+
+.leftClass .leftUpLogos,
+.leftClass .leftDownLogos {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-evenly;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.leftClass img {
+  width: 200px;
+  margin: 0 20px;
+  display: inline-block;
+  padding: 0 10px;
+  animation: scroll 10s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-200%);
+  }
+}
+
+@media (max-width: 1025px) {}
+
+@media (max-width: 769px) {
+  .leftClass .leftUpLogos {
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 426px) {}
+
+@media (max-width: 376px) {}
+
+@media (max-width: 321px) {}

@@ -1,0 +1,35 @@
+.leftChooseClass h3 {
+  color: cyan;
+  margin: 20px 0;
+}
+
+.leftChooseClass h1 {
+  font-size: 70px;
+  margin: 20px 0;
+  font-weight: 900;
+}
+
+.leftChooseClass p {
+  font-size: 14px;
+  line-height: 25px;
+  color: #dadada;
+  padding: 0 90px 0 0;
+}
+
+@media (max-width: 1025px) {
+  .leftChooseClass p {
+    padding: 0 10px 0 0;
+  }
+}
+
+@media (max-width: 769px) {}
+
+@media (max-width: 426px) {
+  .leftChooseClass h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 376px) {}
+
+@media (max-width: 321px) {}

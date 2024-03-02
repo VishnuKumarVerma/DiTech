@@ -1,0 +1,10 @@
+.rightClass {
+  margin-top: 20px;
+}
+
+
+@media (max-width: 769px) {
+  .rightClass {
+    margin-top: 0px;
+  }
+}

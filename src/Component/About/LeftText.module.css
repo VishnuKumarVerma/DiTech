@@ -1,0 +1,52 @@
+.leftAboutTextClass h3 {
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: cyan;
+}
+
+.leftAboutTextClass h1 {
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.leftAboutTextClass p {
+  font-size: 13px;
+  margin: 10px 0;
+  letter-spacing: 2px;
+}
+
+@media (max-width: 1025px) {
+  .leftAboutTextClass h3 {
+    font-size: 12px;
+  }
+
+  .leftAboutTextClass h1 {
+    font-size: 40px;
+  }
+
+  .leftAboutTextClass p {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 769px) {
+  
+}
+
+@media (max-width: 426px) {
+  .leftAboutTextClass h1 {
+    font-size: 35px;
+  }
+
+  .leftAboutTextClass p {
+    font-size: 6px;
+  }
+}
+
+@media (max-width: 376px) {
+  
+}
+
+@media (max-width: 321px) {
+}
