@@ -31,6 +31,6 @@
 .cardClass section:hover {
   scale: 0.95;
   color: cyan;
-  transition:scale 0.5s ease, color 0.01s ease;
+  transition: scale 0.5s ease, color 0.01s ease;
   cursor: pointer;
 }

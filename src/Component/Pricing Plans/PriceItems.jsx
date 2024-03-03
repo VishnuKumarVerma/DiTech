@@ -28,7 +28,7 @@ function PriceItems() {
           Choose Your <span>Plan</span>
         </h1>
       </div>
-      <div className={styles.cards}>
+      <div className={styles.cards} data-aos="">
         {planData.map((items, index) => (
           <PriceElements
             key={index}

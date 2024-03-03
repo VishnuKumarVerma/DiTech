@@ -6,12 +6,12 @@ function LeftService(props) {
     <div className={styles.leftClass}>
       <div className={styles.leftUpLogos}>
         {props.logoItemsUp.map((logo, index) => (
-          <img key={index} src={logo} alt="" />
+          <img key={index} src={logo} alt="Our tieUp's companies logo"/>
         ))}
       </div>
       <div className={styles.leftDownLogos}>
         {props.logoItemsDown.map((logo, index) => (
-          <img key={index} src={logo} alt="" />
+          <img key={index} src={logo} alt="Our tieUp's companies logo"/>
         ))}
       </div>
     </div>

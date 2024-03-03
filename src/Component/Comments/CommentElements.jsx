@@ -1,10 +1,10 @@
 import styles from "./CommentElements.module.css";
-// import { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import { EffectCoverflow, Pagination } from "swiper/modules";
+import { useState } from "react";
 
 import img1 from "../../assets/profile-1.png";
 import img2 from "../../assets/profile-2.png";
@@ -42,6 +42,10 @@ function CommentElements() {
     },
   ];
 
+  const [uniqueKeys] = useState(() =>
+    commentData.map((_, index) => `comment_${index}`)
+  );
+
   return (
     <div className={styles.CommentElementsClass}>
       <Swiper
@@ -49,8 +53,8 @@ function CommentElements() {
         grabCursor={true}
         centeredSlides={true}
         slidesPerView={"auto"}
-        spaceBetween={200} // Add padding between slides
-        loop={true} // Enable infinite loop
+        spaceBetween={200}
+        loop={true}
         coverflowEffect={{
           rotate: 50,
           stretch: 0,
@@ -62,18 +66,16 @@ function CommentElements() {
         modules={[EffectCoverflow, Pagination]}
         className="mySwiper"
       >
-        {commentData.map((items, index) => (
-          <div key={`comment_${index}`}>
-            <SwiperSlide className={styles.card}>
-              <Ratings />
-              <Para commentPara={items.para} />
-              <Profile
-                commentProfileImg={items.profileImg}
-                commentName={items.name}
-                commentBio={items.bio}
-              />
-            </SwiperSlide>
-          </div>
+        {commentData.map((item, index) => (
+          <SwiperSlide key={uniqueKeys[index]} className={styles.card}>
+            <Ratings />
+            <Para commentPara={item.para} />
+            <Profile
+              commentProfileImg={item.profileImg}
+              commentName={item.name}
+              commentBio={item.bio}
+            />
+          </SwiperSlide>
         ))}
       </Swiper>
     </div>

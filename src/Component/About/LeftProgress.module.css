@@ -1,6 +1,6 @@
 .leftProgressClass .firstProgress {
   margin: 25px;
-} 
+}
 
 .leftProgressClass label {
   font-size: 15px;
@@ -13,18 +13,10 @@
   }
 }
 
-@media (max-width: 769px) {
-  
-}
+@media (max-width: 769px) {}
 
-@media (max-width: 426px) {
-  
-}
+@media (max-width: 426px) {}
 
-@media (max-width: 376px) {
-  
-}
+@media (max-width: 376px) {}
 
-@media (max-width: 321px) {
-  
-}
+@media (max-width: 321px) {}

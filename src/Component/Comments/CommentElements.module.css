@@ -4,9 +4,9 @@
 }
 
 .CommentElementsClass .card {
-  border: 1px solid #164031; /* Adjust border properties as needed */
-  border-radius: 8px; /* Optional: Add border radius for rounded corners */
-  padding: 50px; /* Optional: Add padding inside the card */
+  border: 1px solid #164031;
+  border-radius: 8px;
+  padding: 50px;
 }
 
 @media (max-width: 376px) {

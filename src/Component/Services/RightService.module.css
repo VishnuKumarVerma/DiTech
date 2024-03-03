@@ -5,7 +5,6 @@
 
 .rightClass h1 {
   font-size: 40px;
-  /* margin: 20px 0; */
 }
 
 .rightClass p {
@@ -14,26 +13,24 @@
 }
 
 
-@media (max-width: 1025px) {
-  
-}
+@media (max-width: 1025px) {}
 
 @media (max-width: 769px) {
   .rightClass h1 {
     margin: 40px 0;
   }
+
   .rightClass p {
     font-size: 14px;
   }
 }
 
-@media (max-width: 426px) {
-  
-}
+@media (max-width: 426px) {}
 
-@media (max-width: 376px) {
-  
-}
+@media (max-width: 376px) {}
 
 @media (max-width: 321px) {
+  .rightClass h1 {
+    font-size: 33px;
+  }
 }

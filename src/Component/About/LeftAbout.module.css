@@ -1,12 +1,11 @@
 .leftClass {
   padding: 60px;
 }
+
 @media (max-width: 426px) {
   .leftClass {
     padding: 20px;
   }
 }
 
-@media (max-width: 376px) {
-  
-}
+@media (max-width: 376px) {}

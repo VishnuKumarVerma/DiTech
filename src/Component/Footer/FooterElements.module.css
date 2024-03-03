@@ -1,4 +1,4 @@
-.FooterElementsClass .footerTop  {
+.FooterElementsClass .footerTop {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -12,14 +12,13 @@
 .FooterElementsClass .footerTop div {
   max-width: 300px;
   margin: 10px 10px;
-  /* background-color: blue; */
 }
 
 .FooterElementsClass div img {
   margin-bottom: 20px;
 }
 
-.FooterElementsClass  div > h1 {
+.FooterElementsClass div>h1 {
   font-size: 30px;
   margin-top: -5px;
   margin-bottom: 20px;
@@ -27,20 +26,20 @@
   font-weight: 900;
 }
 
-.FooterElementsClass div ul > li {
+.FooterElementsClass div ul>li {
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 5px 0;
 }
 
-.FooterElementsClass div ul li > svg {
+.FooterElementsClass div ul li>svg {
   padding-right: 10px;
   font-size: 25px;
   color: cyan;
 }
 
-.FooterElementsClass div ul > li:hover {
+.FooterElementsClass div ul>li:hover {
   color: cyan;
   cursor: pointer;
 }
@@ -98,7 +97,7 @@
 @media (max-width: 769px) {
   .FooterElementsClass .footerTop div {
     margin: 10px 0;
-    width:100%;
+    width: 100%;
   }
 }
 

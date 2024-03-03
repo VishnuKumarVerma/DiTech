@@ -12,7 +12,7 @@ function FooterElements(props) {
         {props.footerData.map((items, index) => (
           <div key={index}>
             <div className="footerFirstSection">
-              <img src={items.footerLogo} alt="" />
+              <img src={items.footerLogo} />
               <p>{items.para}</p>
             </div>
             {items.companyHead && items.companyLists && (

@@ -10,7 +10,7 @@ function Para(props) {
 }
 
 Para.propTypes = {
-  commentPara: PropTypes.string.isRequired, // Assuming PropsItems is a string
+  commentPara: PropTypes.string.isRequired,
 };
 
 export default Para;

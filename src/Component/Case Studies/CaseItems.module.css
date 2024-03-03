@@ -9,6 +9,8 @@
 
 .mainCaseItemsClass img {
   margin: 150px 20px;
+  width: 400px;
+  padding: 10px 20px;
 }
 
 @media (max-width: 1441px) {

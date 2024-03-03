@@ -1,7 +1,6 @@
-// import React from 'react';
 import menuStyles from "./HamburgerMenu.module.css";
 import { stack as Menu } from "react-burger-menu";
-import "./HamburgerMenu.module.css"; // Import custom CSS for animations
+import "./HamburgerMenu.module.css";
 import { IoCloseCircleSharp } from "react-icons/io5";
 
 function HamburgerMenu() {
@@ -19,7 +18,7 @@ function HamburgerMenu() {
     },
     bmMenuWrap: {
       position: "fixed",
-      width: "300px", // Adjust as needed
+      width: "300px", 
       top: 0,
       right: 0,
     },
@@ -35,11 +34,11 @@ function HamburgerMenu() {
       color: "#b8b7ad",
       padding: "0.8em",
       display: "flex",
-      flexDirection: "column", // Align items vertically
+      flexDirection: "column",
     },
     bmItem: {
       display: "block",
-      marginBottom: "1em", // Add space between items
+      marginBottom: "1em",
     },
   };
   return (

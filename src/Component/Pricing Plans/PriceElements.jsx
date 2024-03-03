@@ -27,9 +27,9 @@ function PriceElements(props) {
 }
 
 PriceElements.propTypes = {
-  cardHead: PropTypes.string.isRequired, // Assuming PropsItems is a string
-  cardPrice: PropTypes.string.isRequired, // Assuming PropsItems is a string
-  cardPara: PropTypes.string.isRequired, // Assuming PropsItems is a string
+  cardHead: PropTypes.string.isRequired,
+  cardPrice: PropTypes.string.isRequired,
+  cardPara: PropTypes.string.isRequired,
 };
 
 export default PriceElements;

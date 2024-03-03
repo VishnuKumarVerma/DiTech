@@ -4,32 +4,35 @@
   margin: 65px 50px 0;
 }
 
-.RightContactClass input, .RightContactClass select {
-  /* width: 50%; */
+.RightContactClass input,
+.RightContactClass select {
   margin: 0px 0px 20px 0;
   height: 50px;
-  width: 100%; 
-  padding: 10px; 
+  width: 100%;
+  padding: 10px;
   background-color: rgba(0, 0, 0, 0.7);
   color: #fff;
   border: 1px solid #fff;
 }
 
-.RightContactClass input:hover, .RightContactClass select:hover {
-  background-color: rgba(0, 255, 255,0.1);
+.RightContactClass input:hover,
+.RightContactClass select:hover {
+  background-color: rgba(0, 255, 255, 0.1);
   border: 1px solid cyan;
 }
 
-.RightContactClass .firstInput ,
+.RightContactClass .firstInput,
 .RightContactClass .thirdInput {
   margin-right: 20px;
 }
 
-.RightContactClass .firstRow, .RightContactClass .secondRow {
+.RightContactClass .firstRow,
+.RightContactClass .secondRow {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
+
 .RightContactClass select option {
   background-color: #000;
   color: #fff;
@@ -45,7 +48,7 @@
 }
 
 .RightContactClass textarea:hover {
-  background-color: rgba(0, 255, 255,0.1);
+  background-color: rgba(0, 255, 255, 0.1);
   border: 1px solid cyan;
 }
 
@@ -67,14 +70,21 @@
 
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
--webkit-appearance: none;
-margin: 0;
+  -webkit-appearance: none;
+  margin: 0;
 }
 
-    input[type=number] {
-      appearance: textfield;
-        -moz-appearance: textfield; /* Firefox */
-    }
+input[type=number] {
+  appearance: textfield;
+  -moz-appearance: textfield;
+}
+
+
+@media (max-width: 1025px) {
+  .RightContactClass button {
+    width: 60%;
+  }
+}
 
 @media (max-width: 769px) {
   .RightContactClass form {
@@ -91,7 +101,8 @@ margin: 0;
     width: 45vh;
   }
 
-  .RightContactClass .firstRow, .RightContactClass .secondRow {
+  .RightContactClass .firstRow,
+  .RightContactClass .secondRow {
     flex-direction: column;
   }
 

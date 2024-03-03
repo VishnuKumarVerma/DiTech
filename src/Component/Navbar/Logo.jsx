@@ -6,7 +6,7 @@ function Logo() {
   return (
     <>
       <div className={styles.logoClass}>
-        <img src={logo} alt="" />
+        <img src={logo} alt="Site logo" />
       </div>
     </>
   );

@@ -1,4 +1,4 @@
-import styles from './RightService.module.css'
+import styles from "./RightService.module.css";
 
 function RightService() {
   return (

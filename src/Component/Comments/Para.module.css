@@ -3,8 +3,8 @@
   font-weight: 600;
 }
 
-@media (max-width: 376px) {
+@media (max-width: 426px) {
   .paraClass p {
     font-size: 10px;
-  } 
+  }
 }

@@ -1,10 +1,12 @@
-import styles from './Footer.module.css';
-import FooterItems from './FooterItems';
+import styles from "./Footer.module.css";
+import FooterItems from "./FooterItems";
 
 function Footer() {
-  return <div className={styles.mainFooterClass}>
-    <FooterItems />
-  </div>
+  return (
+    <div className={styles.mainFooterClass}>
+      <FooterItems />
+    </div>
+  );
 }
 
 export default Footer;

@@ -5,7 +5,6 @@ import RightAbout from "./RightAbout";
 function About() {
   const leftCompo = {
     color: "white",
-    // padding: "80px",
     flex: "50%",
   };
 
@@ -13,7 +12,6 @@ function About() {
     flex: "50%",
     paddingTop: "0px",
     paddingRight: "30px",
-    // padding: "70px",
     color: "#fff",
   };
 

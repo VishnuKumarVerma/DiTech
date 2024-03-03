@@ -5,7 +5,7 @@ import { FaArrowRight } from "react-icons/fa";
 function CardElements(props) {
   return (
     <div className={styles.cardClass}>
-      <img src={props.cardIcon} alt="" />
+      <img src={props.cardIcon} alt="Icons for the Card component" data-aos="zoom-in" />
       <h2>{props.cardHead}</h2>
       <p>{props.cardPara}</p>
       <section>

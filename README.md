@@ -1,2 +1,2 @@
-Theme taken By : [Elvato Market](https://themeforest.net/) <br />
-Project Link : https://di-tech.vercel.app/
+<b>Theme taken By</b> : [Envato Market](https://themeforest.net/) <br />
+<b>Project Link</b> : https://di-tech.vercel.app/

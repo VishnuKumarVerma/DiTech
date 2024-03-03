@@ -13,7 +13,7 @@ function RightAbout(props) {
 }
 
 RightAbout.propTypes = {
-  styles: PropTypes.object.isRequired, // Assuming PropsItems is a string
+  styles: PropTypes.object.isRequired,
 };
 
 export default RightAbout;

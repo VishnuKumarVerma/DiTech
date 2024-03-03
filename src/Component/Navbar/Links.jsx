@@ -4,7 +4,9 @@ function Links() {
   return (
     <>
       <ul className={styles.linksClass}>
-        <li>Home</li>
+        <li>
+          <a href="#">Home</a>
+        </li>
         <li>Services</li>
         <li className={styles.dropdown}>
           <section>
