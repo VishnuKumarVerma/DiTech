@@ -17,7 +17,6 @@ DiTech is a React-based web application that allows users to learn about differe
 * React
 * React Router
 * Material-UI
-* Axios
 * ES6+
 
 ## Getting Started
@@ -38,10 +37,6 @@ DiTech is a React-based web application that allows users to learn about differe
 
 1. Run `npm run build` to build the application
 2. Deploy the application to a server
-
-## License
-
-DiTech is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
 ## Author
 
